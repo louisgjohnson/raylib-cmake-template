@@ -45,6 +45,7 @@ int main(void)
     // De-Initialization
     //--------------------------------------------------------------------------------------
     CloseWindow();        // Close window and OpenGL context
+    UnloadTexture(texture);
 
     return 0;
 }
